@@ -1,0 +1,170 @@
+1. Información de un Producto 
+Diseña un programa que muestre la siguiente información sobre un producto:
+* Nombre del producto
+* Descripción del producto
+* Precio del producto
+* Código de barras
+
+
+Algoritmo 
+
+1. Iniciar
+2. Diseñar un programa de información de un producto
+3. Pedir el nombre del producto
+4. Pedir su descripción
+5. Pedir su precio
+6. Pedir su código de barras
+7. Mostrar nombre de descripción en la pantalla
+8. Finalizar
+
+
+Pseudocodigo 
+
+program_informacion_producto
+
+start
+
+// un programa que muestra información especifica de un producto
+
+// tipo de variable 
+declare string nombre
+declare string descripción
+declare float precio 
+declare string  codigo_de_barra
+
+// pedir informacion
+display "ingrese el nombre del producto:"
+input nombre 
+
+display "escribir la descripción del producto:"
+input descripcion 
+
+display "ingrese el precio del producto:"
+input precio 
+
+display "ingrese el código de barras del producto:"
+input codigo_de_barra 
+
+
+// mostrar la información 
+display "el nombre del producto es", nombre
+display "la descripción del producto es", descripcion 
+display "el precio del producto es ", precio 
+display "el código de barra es ", codigo_de_barra 
+
+end
+
+
+2. Cálculo de Material para Construcción
+Una empresa constructora necesita saber cuántas bolsas de cemento se requieren para cubrir un área 
+específica. Una bolsa de cemento cubre 1,500 pies cuadrados. Diseña un programa que pida al 
+usuario ingresar el total de pies cuadrados a cubrir y calcule cuántas bolsas de cemento se 
+necesitarán.
+
+Algoritmo 
+1. iniciar
+2. digite el numero de pies cuadrados que desea cubrir 
+3. calcular el numero de bolsas de cemento que se necesitan dividiendo el numero de pies cuadrados entre 1500 y guardarlo en una variable que se llame cemento 
+4. mostrar en pantalla la cantidad de cemento que se necesita 
+5. finalizar
+
+
+Pseudocodigo 
+
+program_cantidad_de_cobertura_bolsa_de_cemento
+
+start
+// un programa que determina la cantidad de pies cuadrados que cubre una bolsa de cemento 
+
+//especificar el tipo de variable que es 
+declare float pies_cuadrados 
+declare float bolsas_cemento 
+
+//pedir datos
+display "digite el numero de pies cuadrados que desea cubrir:"
+input pies_cuadrados 
+
+//hallar las bolsas de cemento dividiendo los pies cuadrados entre 1500
+set bolsas_cemento= pies_cuadrados / 1500
+
+// mastrar el calculo de en pantalla 
+display "la cantidad de bolsas de cemento que se necesita para cubrir la zona especificada es de", bolsas_cemento
+
+end
+
+
+3. Programa de Ganancias y Pérdidas en un Negocio de Venta de Autos
+El mes pasado, un concesionario de autos vendió un automóvil usado. Aquí están los detalles:
+* El precio de compra del automóvil fue de $15,000.
+* Se realizaron reparaciones que costaron $2,000.
+* El concesionario vendió el automóvil por $18,500.
+* Se pagó una comisión del 5% sobre el precio de venta al vendedor.
+Diseña un programa que muestre la siguiente información:
+* El costo total invertido en el automóvil.
+* El monto de la comisión pagada al vendedor.
+* El precio final de venta.
+* La ganancia o pérdida después de la venta, considerando todos los costos y la comisión
+
+
+algortimo 
+1 incio 
+2 pedir precio de compra del automóvil 
+3 pedir precio de las reparaciones necesarias 
+4 pedir precio de venta del automóvil 
+5 pedir porcentaje de comisión del vendedor 
+6 calcular el costo total invertido del automóvil sumando el precio de compra mas el precio de las reparaciones
+7 calcular la comisión del vendedor multiplicando el precio de venta por el porcentaje de comisión 
+8 calcular la ganancia después de la venta del auto restando el precio de venta menos el costo invertido menos la comsion del vendedor 
+9 mostrar costo invertido
+10 mostrar comisión del vendedor 
+11 mostrar ganancias 
+12 fin
+
+
+
+Pseudocodigo 
+
+program_informacion_automovil
+
+start
+// un programa que muestra las ganancias totales de la venta de un automóvil 
+
+
+// tipo de variable 
+delcare float precio_compra
+declare float precio_venta
+declare float precio_reparaciones 
+delcare float porcentaje_comisión_vendedor 
+declare float total_invertido 
+declare float comision_vendedor 
+declare float ganancia 
+
+
+// pedir datos 
+display "indique el precio de compra del automóvil:"
+input precio_compra 
+
+display "indique el precio de las reparaciones:"
+input precio_reparaciones 
+
+display "indique porcentaje de comisión del vendedor:"
+input porcentaje_comisión_vendedor 
+
+display "indique el precio de venta del auto:"
+input precio_venta
+
+
+// operaciones requeridas 
+set total_invertido= precio_compra + precio_reparaciones 
+set comision_vendedor= precio_venta * porcentaje_comision_vendedor 
+set ganancia= precio_venta - total_invertido - comison_vendedor 
+
+
+// mostar en pantalla 
+display "el costo invertido es de", total_invertido
+display "la comision del vendedor es de", comision_vendedor 
+display "las ganancias de la venta del audio es de", ganancia 
+
+
+end 
+
